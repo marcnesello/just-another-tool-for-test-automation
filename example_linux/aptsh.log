@@ -1,0 +1,260 @@
+16. OCT 2009 - 16:39:30
+Log started...
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+testlist ID  'Try to install ksh and uninstall it with aptsh' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+test ID test1 'Install ksh' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+group ID 1 'Install ksh' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+command ID 0 'Check if ksh is installed' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+Output of the command ID 0 'Check if ksh is installed':
+ksh:
+  Installiert: (keine)
+  Kandidat: 93s+20080202-1
+  Versions-Tabelle:
+     93s+20080202-1 0
+        500 http://de.archive.ubuntu.com jaunty/universe Packages
+        100 /var/lib/dpkg/status
+
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+The result of the command ID 0 'Check if ksh is installed' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+command ID 0 'Check if ksh is installed' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:30
+command ID 1 'Call aptsh and install ksh' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+Output of the command ID 1 'Call aptsh and install ksh':
+Generating and mapping caches...
+Reading commands history...
+[1;33mapt[1;31msh[0m> install ksh
+Paketlisten werden gelesen...
+Abhängigkeitsbaum wird aufgebaut...
+Lese Status-Informationen ein...
+Die folgenden Pakete wurden automatisch installiert und werden nicht länger benötigt:
+  linux-headers-2.6.28-11 linux-headers-2.6.28-11-generic tzdata-java
+Verwenden Sie »apt-get autoremove«, um sie zu entfernen.
+Die folgenden NEUEN Pakete werden installiert:
+  ksh
+0 aktualisiert, 1 neu installiert, 0 zu entfernen und 58 nicht aktualisiert.
+Es müssen noch 0B von 1227kB an Archiven heruntergeladen werden.
+Nach dieser Operation werden 2556kB Plattenplatz zusätzlich benutzt.
+Wähle vormals abgewähltes Paket ksh.
+(Lese Datenbank ... 126225 Dateien und Verzeichnisse sind derzeit installiert.)
+Entpacke ksh (aus .../ksh_93s+20080202-1_i386.deb) ...
+Verarbeite Trigger für man-db ...
+Richte ksh ein (93s+20080202-1) ...
+
+[1;33mapt[1;31msh[0m> bye!
+
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+The result of the command ID 1 'Call aptsh and install ksh' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+command ID 1 'Call aptsh and install ksh' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+command ID 2 'Check if ksh is installed' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+Output of the command ID 2 'Check if ksh is installed':
+ksh:
+  Installiert: 93s+20080202-1
+  Kandidat: 93s+20080202-1
+  Versions-Tabelle:
+ *** 93s+20080202-1 0
+        500 http://de.archive.ubuntu.com jaunty/universe Packages
+        100 /var/lib/dpkg/status
+
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+The result of the command ID 2 'Check if ksh is installed' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+command ID 2 'Check if ksh is installed' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+The result of the group ID 1 'Install ksh' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+group ID 1 'Install ksh' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+The duration of the of the test ID test1 'Install ksh' was: 0 Days 0 Hours 0 Minutes and 4 Seconds
+The result of the test ID test1 'Install ksh' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+test ID test1 'Install ksh' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+test ID test2 'Uninstall ksh' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+group ID 1 'Uninstall ksh' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+command ID 0 'Check if ksh is installed' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+Output of the command ID 0 'Check if ksh is installed':
+ksh:
+  Installiert: 93s+20080202-1
+  Kandidat: 93s+20080202-1
+  Versions-Tabelle:
+ *** 93s+20080202-1 0
+        500 http://de.archive.ubuntu.com jaunty/universe Packages
+        100 /var/lib/dpkg/status
+
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+The result of the command ID 0 'Check if ksh is installed' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+command ID 0 'Check if ksh is installed' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:34
+command ID 1 'Call aptsh and uninstall ksh' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+Output of the command ID 1 'Call aptsh and uninstall ksh':
+Generating and mapping caches...
+Reading commands history...
+[1;33mapt[1;31msh[0m> remove ksh
+Paketlisten werden gelesen...
+Abhängigkeitsbaum wird aufgebaut...
+Lese Status-Informationen ein...
+Die folgenden Pakete wurden automatisch installiert und werden nicht länger benötigt:
+  linux-headers-2.6.28-11 linux-headers-2.6.28-11-generic tzdata-java
+Verwenden Sie »apt-get autoremove«, um sie zu entfernen.
+Die folgenden Pakete werden ENTFERNT:
+  ksh
+0 aktualisiert, 0 neu installiert, 1 zu entfernen und 58 nicht aktualisiert.
+Nach dieser Operation werden 2556kB Plattenplatz freigegeben.
+Möchten Sie fortfahren [J/n]? (Lese Datenbank ... 126245 Dateien und Verzeichnisse sind derzeit installiert.)
+Entferne ksh ...
+Verarbeite Trigger für man-db ...
+[1;33mapt[1;31msh[0m> bye!
+
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+The result of the command ID 1 'Call aptsh and uninstall ksh' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+command ID 1 'Call aptsh and uninstall ksh' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+command ID 2 'Check if ksh is installed' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+Output of the command ID 2 'Check if ksh is installed':
+ksh:
+  Installiert: (keine)
+  Kandidat: 93s+20080202-1
+  Versions-Tabelle:
+     93s+20080202-1 0
+        500 http://de.archive.ubuntu.com jaunty/universe Packages
+        100 /var/lib/dpkg/status
+
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+The result of the command ID 2 'Check if ksh is installed' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+command ID 2 'Check if ksh is installed' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+The result of the group ID 1 'Uninstall ksh' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+group ID 1 'Uninstall ksh' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+The duration of the of the test ID test2 'Uninstall ksh' was: 0 Days 0 Hours 0 Minutes and 3 Seconds
+The result of the test ID test2 'Uninstall ksh' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+test ID test2 'Uninstall ksh' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+The duration of the of the testlist ID  'Try to install ksh and uninstall it with aptsh' was: 0 Days 0 Hours 0 Minutes and 7 Seconds
+The result of the testlist ID  'Try to install ksh and uninstall it with aptsh' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+testlist ID  'Try to install ksh and uninstall it with aptsh' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+Log finished...
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+Log saved at aptsh.log
+-------------------------------------------------------
+16. OCT 2009 - 16:39:37
+HTML Stats saved at aptsh.html
+-------------------------------------------------------

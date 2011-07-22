@@ -1,0 +1,183 @@
+16. OCT 2009 - 16:28:40
+Log started...
+-------------------------------------------------------
+16. OCT 2009 - 16:28:40
+testlist ID  'Test cpanp' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:40
+test ID t0 'Install perl module xml::simple with cpanp' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:40
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:40
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:28:40
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:40
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:40
+group ID 1 'install module' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:28:40
+command ID 3 'Call cpanp and install module' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+Output of the command ID 3 'Call cpanp and install module':
+Installing XML::Simple (2.18)
+Running [C:\strawberry\perl\bin\perl.exe C:\strawberry\perl\bin\cpanp-run-perl C:\cpanplus\5.10.0\build\XML-Simple-2.18\Makefile.PL]...
+Checking installed modules ...
+XML::SAX is installed, it will be used by the test suite
+Writing Makefile for XML::Simple
+Running [C:\strawberry\c\bin\dmake.EXE test UNINST=1]...
+C:\strawberry\perl\bin\perl.exe "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib\lib', 'blib\arch')" t/*.t
+# # Package                        Version
+#  perl                           5.10.0
+#  XML::Simple                    2.18
+#  Storable                       2.20
+#  XML::Parser                    2.36
+#  XML::SAX                       0.96
+#  XML::NamespaceSupport          1.10
+#  XML::LibXML::SAX::Parser       1.69
+#  XML::LibXML::SAX               1.69 (default parser)
+t/0_Config.t ...... ok
+t/1_XMLin.t ....... ok
+t/2_XMLout.t ...... ok
+t/3_Storable.t .... ok
+t/4_MemShare.t .... ok
+t/5_MemCopy.t ..... ok
+t/6_ObjIntf.t ..... ok
+t/7_SaxStuff.t .... ok
+t/8_Namespaces.t .. ok
+t/9_Strict.t ...... ok
+t/A_XMLParser.t ... ok
+t/B_Hooks.t ....... ok
+All tests successful.
+Files=12, Tests=496, 14 wallclock secs ( 0.27 usr +  0.09 sys =  0.36 CPU)
+Result: PASS
+*** Install log written to:
+  C:\cpanplus\install-logs\XML-Simple-2.18-1255703337.log
+
+Module 'XML::Simple' installed successfully
+No errors installing all modules
+
+
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+The result of the command ID 3 'Call cpanp and install module' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+command ID 3 'Call cpanp and install module' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+The result of the group ID 1 'install module' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+group ID 1 'install module' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+The duration of the of the test ID t0 'Install perl module xml::simple with cpanp' was: 0 Days 0 Hours 0 Minutes and 17 Seconds
+The result of the test ID t0 'Install perl module xml::simple with cpanp' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+test ID t0 'Install perl module xml::simple with cpanp' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+test ID t1 'Uninstall perl module xml::simple with cpanp' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+group ID 1 'uninstall module' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:28:57
+command ID 3 'Call cpanp and uninstall module' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+Output of the command ID 3 'Call cpanp and uninstall module':
+Uninstalling 'XML::Simple'
+Module 'XML::Simple' uninstalled successfully
+All modules uninstalled successfully
+
+
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+The result of the command ID 3 'Call cpanp and uninstall module' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+command ID 3 'Call cpanp and uninstall module' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+The result of the group ID 1 'uninstall module' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+group ID 1 'uninstall module' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+The duration of the of the test ID t1 'Uninstall perl module xml::simple with cpanp' was: 0 Days 0 Hours 0 Minutes and 3 Seconds
+The result of the test ID t1 'Uninstall perl module xml::simple with cpanp' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+test ID t1 'Uninstall perl module xml::simple with cpanp' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+The duration of the of the testlist ID  'Test cpanp' was: 0 Days 0 Hours 0 Minutes and 20 Seconds
+The result of the testlist ID  'Test cpanp' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+testlist ID  'Test cpanp' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+Log finished...
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+Log saved at cpanp.log
+-------------------------------------------------------
+16. OCT 2009 - 16:29:00
+HTML Stats saved at cpanp.html
+-------------------------------------------------------

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+#Just Another Tool for Test Automation
+#Copyright (C) 2011  Marc Nesello
+#
+#This file is part of Just Another Tool for Test Automation.
+#
+#Just Another Tool for Test Automation is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 2 of the License, or
+#(at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:annotation>
+		<xsd:documentation>
+			Author: marcn
+			XML Schema for the test list of JASTA.
+			</xsd:documentation>
+	</xsd:annotation>
+	
+	<xsd:complexType name="commandType">
+	<xsd:sequence>
+		<xsd:element name="path" type="xsd:string" minOccurs="1" maxOccurs="1"></xsd:element>
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="positiveCheck" type="xsd:string"></xsd:element>
+			<xsd:element name="negativeCheck" type="xsd:string"></xsd:element>
+			<xsd:element name="inputData" type="xsd:string"></xsd:element> 
+		</xsd:choice>
+	</xsd:sequence>	
+		<xsd:attribute name="id" type="xsd:string" use="required" />
+		<xsd:attribute name="name" type="xsd:string" use="required"/>	
+	</xsd:complexType>
+	
+	<xsd:complexType name="groupType">
+		<xsd:sequence>
+			<xsd:element name="command" type="commandType" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="parallel" type="xsd:unsignedInt" use="optional" default="1"/>	
+		<xsd:attribute name="serial" type="xsd:unsignedInt" use="optional" default="1"/>	
+		<xsd:attribute name="id" type="xsd:string" use="required" />
+		<xsd:attribute name="name" type="xsd:string" use="required"/>	
+	</xsd:complexType>
+	
+	<xsd:element name="testlist">
+	    <xsd:complexType>
+	        <xsd:sequence>
+	        	<xsd:element name="test" minOccurs="1" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="head">
+								<xsd:complexType>
+									<xsd:sequence>
+											<xsd:element name="group" type="groupType" minOccurs="0" maxOccurs="unbounded"/>		
+									</xsd:sequence>
+									<xsd:attribute name="warnIfFailed" type="xsd:unsignedInt" use="optional" default="0"/>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="body">
+								<xsd:complexType>
+									<xsd:sequence>
+											<xsd:element name="group" type="groupType" minOccurs="1" maxOccurs="unbounded"/>							
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="tail">
+								<xsd:complexType>
+									<xsd:sequence>
+											<xsd:element name="group" type="groupType" minOccurs="0" maxOccurs="unbounded"/>							
+									</xsd:sequence>
+									<xsd:attribute name="warnIfFailed" type="xsd:unsignedInt" use="optional" default="0"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+						<xsd:attribute name="timeout" type="xsd:unsignedInt" use="required"/>
+						<xsd:attribute name="id" type="xsd:ID" use="required" />
+						<xsd:attribute name="name" type="xsd:string" use="required"/>
+					</xsd:complexType>
+				</xsd:element>
+	        </xsd:sequence>
+	        <xsd:attribute name="name" type="xsd:string" use="required"/>
+	        <xsd:attribute name="timeout" type="xsd:unsignedInt" use="required"/>
+	        <xsd:attribute name="logfile" type="xsd:string" use="required"/>
+	    </xsd:complexType>
+    </xsd:element>
+    
+</xsd:schema>

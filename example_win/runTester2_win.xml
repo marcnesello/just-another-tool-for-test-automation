@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+#Just Another Tool for Test Automation
+#Copyright (C) 2011  Marc Nesello
+#
+#This file is part of Just Another Tool for Test Automation.
+#
+#Just Another Tool for Test Automation is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 2 of the License, or
+#(at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<testlist name="Beispieltest" timeout="0" logfile="runTester2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jatta.xsd">
+
+  <test id="test2" name="App sleeps, wait till end" timeout="0">
+<head>
+</head>
+    <body>
+      <group parallel="1" serial="1" id="1" name="jattetest">
+        <command id="2" name="JATTATester aufrufen">
+        <path>java -cp "..\JATTATester\build\classes" jattatester.JattaTester</path>
+        <inputData>n</inputData>
+        <inputData>sleep</inputData>
+		<inputData>5</inputData>
+		<positiveCheck>Stopped after \d+ seconds</positiveCheck>
+        <negativeCheck>(E|e)rror</negativeCheck>
+        </command>
+      </group>
+    </body>
+<tail></tail>
+  </test>
+  <test id="test3" name="App with some input" timeout="20">
+<head>
+</head>
+    <body>
+      <group parallel="1" serial="1" id="1" name="jattetest">
+        <command id="2" name="JATTATester aufrufen">
+        <path>java -cp "..\JATTATester\build\classes" jattatester.JattaTester</path>
+        <inputData>y</inputData>
+        <inputData>Marc</inputData>
+		<inputData>23</inputData>
+		<positiveCheck>Hi Marc! You are 23 years old</positiveCheck>
+        <negativeCheck>(E|e)rror</negativeCheck>
+        </command>
+      </group>
+    </body>
+<tail></tail>
+  </test>
+  
+    <test id="test4" name="A small mass test" timeout="20">
+<head>
+</head>
+    <body>
+      <group parallel="5" serial="5" id="1" name="jattetest">
+        <command id="2" name="JATTATester aufrufen">
+        <path>java -cp "..\JATTATester\build\classes" jattatester.JattaTester</path>
+        <inputData>y</inputData>
+        <inputData>Marc</inputData>
+		<inputData>23</inputData>
+		<positiveCheck>Hi Marc! You are 23 years old</positiveCheck>
+        <negativeCheck>(E|e)rror</negativeCheck>
+        </command>
+      </group>
+    </body>
+<tail></tail>
+  </test>
+ 
+</testlist>

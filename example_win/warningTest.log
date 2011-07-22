@@ -1,0 +1,958 @@
+16. OCT 2009 - 16:27:54
+Log started...
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+testlist ID  'Beispieltest' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+test ID t0 'TEST WITH WARNING' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 1 'head' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 0 'Testverzeichnis erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 0 'Testverzeichnis erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 0 'Testverzeichnis erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 0 'Testverzeichnis erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 1 'Testdatei erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 1 'Testdatei erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 1 'Testdatei erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 1 'Testdatei erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 2 'Alte Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 2 'Alte Testdatei löschen':
+D:\Eigene Dateien\BachelorArbeit\JATTA\test\test.txt konnte nicht gefunden werden
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 2 'Alte Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 2 'Alte Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the group ID 1 'head' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 1 'head' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 2 'body' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+28.08.2009  15:44               379 .project
+28.08.2009  15:44    <DIR>          .settings
+16.10.2009  16:20             2.169 aptsh.xml
+16.10.2009  16:20             1.353 cpanp.xml
+08.10.2009  14:03    <DIR>          doc
+12.09.2009  02:59            65.102 Doxyfile
+15.09.2009  03:02    <DIR>          examples
+16.10.2009  16:27             1.325 failTest.html
+16.10.2009  16:27            27.497 failTest.log
+16.10.2009  16:19             4.480 failTest_linux.xml
+16.10.2009  16:18             4.652 failTest_win.xml
+16.10.2009  16:26               670 jatta.pl
+22.09.2009  23:40             3.074 jatta.xsd
+16.10.2009  16:27    <DIR>          logs_win
+07.10.2009  21:50    <DIR>          modlib
+16.10.2009  16:16             1.991 runTester2_linux.xml
+16.10.2009  16:16             2.058 runTester2_win.xml
+16.10.2009  16:16             1.819 runTester_linux.xml
+16.10.2009  16:16             1.887 runTester_win.xml
+16.10.2009  16:17             2.407 successTest_linux.xml
+16.10.2009  16:17             2.477 successTest_win.xml
+16.10.2009  16:27    <DIR>          test
+16.10.2009  16:27                 3 test.txt
+07.10.2009  21:35    <DIR>          tests_linux
+08.10.2009  14:01    <DIR>          tests_win
+16.10.2009  16:27    <DIR>          tmp
+16.10.2009  16:27                 0 warningTest.html
+16.10.2009  16:27                 0 warningTest.log
+16.10.2009  16:17             6.797 warningTest_linux.xml
+16.10.2009  16:17             7.071 warningTest_win.xml
+              21 Datei(en),        137.211 Bytes
+              11 Verzeichnis(se), 22.874.935.296 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA\test
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+               0 Datei(en),              0 Bytes
+               2 Verzeichnis(se), 22.874.931.200 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 5 'Datei kopieren' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 5 'Datei kopieren':
+        1 Datei(en) kopiert.
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 5 'Datei kopieren' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 5 'Datei kopieren' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 6 'Prüfen ob Datei kopiert wurde' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 6 'Prüfen ob Datei kopiert wurde':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA\test
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+16.10.2009  16:27                 3 test.txt
+               1 Datei(en),              3 Bytes
+               2 Verzeichnis(se), 22.874.931.200 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 6 'Prüfen ob Datei kopiert wurde' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 6 'Prüfen ob Datei kopiert wurde' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+28.08.2009  15:44               379 .project
+28.08.2009  15:44    <DIR>          .settings
+16.10.2009  16:20             2.169 aptsh.xml
+16.10.2009  16:20             1.353 cpanp.xml
+08.10.2009  14:03    <DIR>          doc
+12.09.2009  02:59            65.102 Doxyfile
+15.09.2009  03:02    <DIR>          examples
+16.10.2009  16:27             1.325 failTest.html
+16.10.2009  16:27            27.497 failTest.log
+16.10.2009  16:19             4.480 failTest_linux.xml
+16.10.2009  16:18             4.652 failTest_win.xml
+16.10.2009  16:26               670 jatta.pl
+22.09.2009  23:40             3.074 jatta.xsd
+16.10.2009  16:27    <DIR>          logs_win
+07.10.2009  21:50    <DIR>          modlib
+16.10.2009  16:16             1.991 runTester2_linux.xml
+16.10.2009  16:16             2.058 runTester2_win.xml
+16.10.2009  16:16             1.819 runTester_linux.xml
+16.10.2009  16:16             1.887 runTester_win.xml
+16.10.2009  16:17             2.407 successTest_linux.xml
+16.10.2009  16:17             2.477 successTest_win.xml
+16.10.2009  16:27    <DIR>          test
+16.10.2009  16:27                 3 test.txt
+07.10.2009  21:35    <DIR>          tests_linux
+08.10.2009  14:01    <DIR>          tests_win
+16.10.2009  16:27    <DIR>          tmp
+16.10.2009  16:27                 0 warningTest.html
+16.10.2009  16:27                 0 warningTest.log
+16.10.2009  16:17             6.797 warningTest_linux.xml
+16.10.2009  16:17             7.071 warningTest_win.xml
+              21 Datei(en),        137.211 Bytes
+              11 Verzeichnis(se), 22.874.931.200 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the group ID 2 'body' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 2 'body' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 3 'tail' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 8 'Testdatei löschen im alten Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 8 'Testdatei löschen im alten Verzeichnis':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 8 'Testdatei löschen im alten Verzeichnis' failed at Positive Check 'sdfgsdygg'
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 8 'Testdatei löschen im alten Verzeichnis' is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 8 'Testdatei löschen im alten Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 9 'Testdatei löschen im neuen Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 9 'Testdatei löschen im neuen Verzeichnis':
+M”chten Sie "D:\Eigene Dateien\BachelorArbeit\JATTA\test\test.txt" l”schen (J/N)? j
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 9 'Testdatei löschen im neuen Verzeichnis' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 9 'Testdatei löschen im neuen Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 10 'Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 10 'Testdatei löschen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 10 'Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 10 'Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the group ID 3 'tail' is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 3 'tail' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the tail   is WARNING
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The duration of the of the test ID t0 'TEST WITH WARNING' was: 0 Days 0 Hours 0 Minutes and 0 Seconds
+The result of the test ID t0 'TEST WITH WARNING' is WARNING
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+test ID t0 'TEST WITH WARNING' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+test ID t7 'Good Test' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 1 'head' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 0 'Testverzeichnis erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 0 'Testverzeichnis erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 0 'Testverzeichnis erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 0 'Testverzeichnis erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 1 'Testdatei erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 1 'Testdatei erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 1 'Testdatei erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 1 'Testdatei erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 2 'Alte Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 2 'Alte Testdatei löschen':
+D:\Eigene Dateien\BachelorArbeit\JATTA\test\test.txt konnte nicht gefunden werden
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 2 'Alte Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 2 'Alte Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the group ID 1 'head' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 1 'head' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 2 'body' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+28.08.2009  15:44               379 .project
+28.08.2009  15:44    <DIR>          .settings
+16.10.2009  16:20             2.169 aptsh.xml
+16.10.2009  16:20             1.353 cpanp.xml
+08.10.2009  14:03    <DIR>          doc
+12.09.2009  02:59            65.102 Doxyfile
+15.09.2009  03:02    <DIR>          examples
+16.10.2009  16:27             1.325 failTest.html
+16.10.2009  16:27            27.497 failTest.log
+16.10.2009  16:19             4.480 failTest_linux.xml
+16.10.2009  16:18             4.652 failTest_win.xml
+16.10.2009  16:26               670 jatta.pl
+22.09.2009  23:40             3.074 jatta.xsd
+16.10.2009  16:27    <DIR>          logs_win
+07.10.2009  21:50    <DIR>          modlib
+16.10.2009  16:16             1.991 runTester2_linux.xml
+16.10.2009  16:16             2.058 runTester2_win.xml
+16.10.2009  16:16             1.819 runTester_linux.xml
+16.10.2009  16:16             1.887 runTester_win.xml
+16.10.2009  16:17             2.407 successTest_linux.xml
+16.10.2009  16:17             2.477 successTest_win.xml
+16.10.2009  16:27    <DIR>          test
+16.10.2009  16:27                 3 test.txt
+07.10.2009  21:35    <DIR>          tests_linux
+08.10.2009  14:01    <DIR>          tests_win
+16.10.2009  16:27    <DIR>          tmp
+16.10.2009  16:27                 0 warningTest.html
+16.10.2009  16:27                 0 warningTest.log
+16.10.2009  16:17             6.797 warningTest_linux.xml
+16.10.2009  16:17             7.071 warningTest_win.xml
+              21 Datei(en),        137.211 Bytes
+              11 Verzeichnis(se), 22.874.902.528 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA\test
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+               0 Datei(en),              0 Bytes
+               2 Verzeichnis(se), 22.874.902.528 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 5 'Datei kopieren' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 5 'Datei kopieren':
+        1 Datei(en) kopiert.
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 5 'Datei kopieren' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 5 'Datei kopieren' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 6 'Prüfen ob Datei kopiert wurde' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 6 'Prüfen ob Datei kopiert wurde':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA\test
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+16.10.2009  16:27                 3 test.txt
+               1 Datei(en),              3 Bytes
+               2 Verzeichnis(se), 22.874.902.528 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 6 'Prüfen ob Datei kopiert wurde' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 6 'Prüfen ob Datei kopiert wurde' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+28.08.2009  15:44               379 .project
+28.08.2009  15:44    <DIR>          .settings
+16.10.2009  16:20             2.169 aptsh.xml
+16.10.2009  16:20             1.353 cpanp.xml
+08.10.2009  14:03    <DIR>          doc
+12.09.2009  02:59            65.102 Doxyfile
+15.09.2009  03:02    <DIR>          examples
+16.10.2009  16:27             1.325 failTest.html
+16.10.2009  16:27            27.497 failTest.log
+16.10.2009  16:19             4.480 failTest_linux.xml
+16.10.2009  16:18             4.652 failTest_win.xml
+16.10.2009  16:26               670 jatta.pl
+22.09.2009  23:40             3.074 jatta.xsd
+16.10.2009  16:27    <DIR>          logs_win
+07.10.2009  21:50    <DIR>          modlib
+16.10.2009  16:16             1.991 runTester2_linux.xml
+16.10.2009  16:16             2.058 runTester2_win.xml
+16.10.2009  16:16             1.819 runTester_linux.xml
+16.10.2009  16:16             1.887 runTester_win.xml
+16.10.2009  16:17             2.407 successTest_linux.xml
+16.10.2009  16:17             2.477 successTest_win.xml
+16.10.2009  16:27    <DIR>          test
+16.10.2009  16:27                 3 test.txt
+07.10.2009  21:35    <DIR>          tests_linux
+08.10.2009  14:01    <DIR>          tests_win
+16.10.2009  16:27    <DIR>          tmp
+16.10.2009  16:27                 0 warningTest.html
+16.10.2009  16:27                 0 warningTest.log
+16.10.2009  16:17             6.797 warningTest_linux.xml
+16.10.2009  16:17             7.071 warningTest_win.xml
+              21 Datei(en),        137.211 Bytes
+              11 Verzeichnis(se), 22.874.902.528 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the group ID 2 'body' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 2 'body' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 3 'tail' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 8 'Testdatei löschen im alten Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 8 'Testdatei löschen im alten Verzeichnis':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 8 'Testdatei löschen im alten Verzeichnis' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 8 'Testdatei löschen im alten Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 9 'Testdatei löschen im neuen Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 9 'Testdatei löschen im neuen Verzeichnis':
+M”chten Sie "D:\Eigene Dateien\BachelorArbeit\JATTA\test\test.txt" l”schen (J/N)? j
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 9 'Testdatei löschen im neuen Verzeichnis' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 9 'Testdatei löschen im neuen Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 10 'Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 10 'Testdatei löschen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 10 'Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 10 'Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the group ID 3 'tail' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 3 'tail' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The duration of the of the test ID t7 'Good Test' was: 0 Days 0 Hours 0 Minutes and 0 Seconds
+The result of the test ID t7 'Good Test' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+test ID t7 'Good Test' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+test ID t42 'Other test with warning' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+group ID 1 'head' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 0 'Testverzeichnis erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+Output of the command ID 0 'Testverzeichnis erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+The result of the command ID 0 'Testverzeichnis erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 0 'Testverzeichnis erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:54
+command ID 1 'Testdatei erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 1 'Testdatei erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 1 'Testdatei erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 1 'Testdatei erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 2 'Alte Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 2 'Alte Testdatei löschen':
+D:\Eigene Dateien\BachelorArbeit\JATTA\test\test.txt konnte nicht gefunden werden
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 2 'Alte Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 2 'Alte Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the group ID 1 'head' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+group ID 1 'head' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+group ID 2 'body' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+28.08.2009  15:44               379 .project
+28.08.2009  15:44    <DIR>          .settings
+16.10.2009  16:20             2.169 aptsh.xml
+16.10.2009  16:20             1.353 cpanp.xml
+08.10.2009  14:03    <DIR>          doc
+12.09.2009  02:59            65.102 Doxyfile
+15.09.2009  03:02    <DIR>          examples
+16.10.2009  16:27             1.325 failTest.html
+16.10.2009  16:27            27.497 failTest.log
+16.10.2009  16:19             4.480 failTest_linux.xml
+16.10.2009  16:18             4.652 failTest_win.xml
+16.10.2009  16:26               670 jatta.pl
+22.09.2009  23:40             3.074 jatta.xsd
+16.10.2009  16:27    <DIR>          logs_win
+07.10.2009  21:50    <DIR>          modlib
+16.10.2009  16:16             1.991 runTester2_linux.xml
+16.10.2009  16:16             2.058 runTester2_win.xml
+16.10.2009  16:16             1.819 runTester_linux.xml
+16.10.2009  16:16             1.887 runTester_win.xml
+16.10.2009  16:17             2.407 successTest_linux.xml
+16.10.2009  16:17             2.477 successTest_win.xml
+16.10.2009  16:27    <DIR>          test
+16.10.2009  16:27                 3 test.txt
+07.10.2009  21:35    <DIR>          tests_linux
+08.10.2009  14:01    <DIR>          tests_win
+16.10.2009  16:27    <DIR>          tmp
+16.10.2009  16:27                 0 warningTest.html
+16.10.2009  16:27                 0 warningTest.log
+16.10.2009  16:17             6.797 warningTest_linux.xml
+16.10.2009  16:17             7.071 warningTest_win.xml
+              21 Datei(en),        137.211 Bytes
+              11 Verzeichnis(se), 22.874.902.528 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA\test
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+               0 Datei(en),              0 Bytes
+               2 Verzeichnis(se), 22.874.869.760 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 5 'Datei kopieren' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 5 'Datei kopieren':
+        1 Datei(en) kopiert.
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 5 'Datei kopieren' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 5 'Datei kopieren' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 6 'Prüfen ob Datei kopiert wurde' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 6 'Prüfen ob Datei kopiert wurde':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA\test
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+16.10.2009  16:27                 3 test.txt
+               1 Datei(en),              3 Bytes
+               2 Verzeichnis(se), 22.874.869.760 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 6 'Prüfen ob Datei kopiert wurde' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 6 'Prüfen ob Datei kopiert wurde' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist':
+ Datentr„ger in Laufwerk D: ist Volume
+ Volumeseriennummer: 9287-69A0
+
+ Verzeichnis von D:\Eigene Dateien\BachelorArbeit\JATTA
+
+16.10.2009  16:27    <DIR>          .
+16.10.2009  16:27    <DIR>          ..
+28.08.2009  15:44               379 .project
+28.08.2009  15:44    <DIR>          .settings
+16.10.2009  16:20             2.169 aptsh.xml
+16.10.2009  16:20             1.353 cpanp.xml
+08.10.2009  14:03    <DIR>          doc
+12.09.2009  02:59            65.102 Doxyfile
+15.09.2009  03:02    <DIR>          examples
+16.10.2009  16:27             1.325 failTest.html
+16.10.2009  16:27            27.497 failTest.log
+16.10.2009  16:19             4.480 failTest_linux.xml
+16.10.2009  16:18             4.652 failTest_win.xml
+16.10.2009  16:26               670 jatta.pl
+22.09.2009  23:40             3.074 jatta.xsd
+16.10.2009  16:27    <DIR>          logs_win
+07.10.2009  21:50    <DIR>          modlib
+16.10.2009  16:16             1.991 runTester2_linux.xml
+16.10.2009  16:16             2.058 runTester2_win.xml
+16.10.2009  16:16             1.819 runTester_linux.xml
+16.10.2009  16:16             1.887 runTester_win.xml
+16.10.2009  16:17             2.407 successTest_linux.xml
+16.10.2009  16:17             2.477 successTest_win.xml
+16.10.2009  16:27    <DIR>          test
+16.10.2009  16:27                 3 test.txt
+07.10.2009  21:35    <DIR>          tests_linux
+08.10.2009  14:01    <DIR>          tests_win
+16.10.2009  16:27    <DIR>          tmp
+16.10.2009  16:27                 0 warningTest.html
+16.10.2009  16:27                 0 warningTest.log
+16.10.2009  16:17             6.797 warningTest_linux.xml
+16.10.2009  16:17             7.071 warningTest_win.xml
+              21 Datei(en),        137.211 Bytes
+              11 Verzeichnis(se), 22.874.869.760 Bytes frei
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the group ID 2 'body' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+group ID 2 'body' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+group ID 3 'tail' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 8 'Testdatei löschen im alten Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 8 'Testdatei löschen im alten Verzeichnis':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 8 'Testdatei löschen im alten Verzeichnis' failed at Positive Check 'sdfgsdygg'
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 8 'Testdatei löschen im alten Verzeichnis' is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 8 'Testdatei löschen im alten Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 9 'Testdatei löschen im neuen Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 9 'Testdatei löschen im neuen Verzeichnis':
+M”chten Sie "D:\Eigene Dateien\BachelorArbeit\JATTA\test\test.txt" l”schen (J/N)? j
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 9 'Testdatei löschen im neuen Verzeichnis' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 9 'Testdatei löschen im neuen Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 10 'Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Output of the command ID 10 'Testdatei löschen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the command ID 10 'Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+command ID 10 'Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the group ID 3 'tail' is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+group ID 3 'tail' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The result of the tail   is WARNING
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The duration of the of the test ID t42 'Other test with warning' was: 0 Days 0 Hours 0 Minutes and 1 Seconds
+The result of the test ID t42 'Other test with warning' is WARNING
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+test ID t42 'Other test with warning' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+The duration of the of the testlist ID  'Beispieltest' was: 0 Days 0 Hours 0 Minutes and 1 Seconds
+The result of the testlist ID  'Beispieltest' is WARNING
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+testlist ID  'Beispieltest' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Log finished...
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+Log saved at warningTest.log
+-------------------------------------------------------
+16. OCT 2009 - 16:27:55
+HTML Stats saved at warningTest.html
+-------------------------------------------------------

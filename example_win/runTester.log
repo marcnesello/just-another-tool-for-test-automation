@@ -1,0 +1,190 @@
+17. OCT 2009 - 01:48:38
+Log started...
+-------------------------------------------------------
+17. OCT 2009 - 01:48:38
+testlist ID  'Beispieltest' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+test ID test1 'Provoke Error' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+head   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+head   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+body   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+group ID 1 'jattetest' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+Do you want an Message which provokes a failed test (Press Enter or type sleep)?
+>
+9.515575902990198
+Error: This Application failed!
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+command ID 2 'JATTATester aufrufen' failed at Negative Check '(E|e)rror'
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+The result of the command ID 2 'JATTATester aufrufen' is NOT SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+The result of the group ID 1 'jattetest' is NOT SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+group ID 1 'jattetest' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+The result of the body   is NOT SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+body   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+tail   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+tail   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+The duration of the of the test ID test1 'Provoke Error' was: 0 Days 0 Hours 0 Minutes and 0 Seconds
+The result of the test ID test1 'Provoke Error' is NOT SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+test ID test1 'Provoke Error' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+test ID test2 'App sleeps, use timeout' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+head   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+head   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+body   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+group ID 1 'jattetest' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+17. OCT 2009 - 01:48:39
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+test ID  'App sleeps, use timeout' aborted:  Aborted after a Timeout of 10 Seconds
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+The duration of the of the test ID test2 'App sleeps, use timeout' was: 0 Days 0 Hours 0 Minutes and 10 Seconds
+The result of the test ID test2 'App sleeps, use timeout' is NOT SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+test ID test2 'App sleeps, use timeout' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+test ID test3 'App with some input' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+head   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+head   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+body   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+group ID 1 'jattetest' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+The result of the group ID 1 'jattetest' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+group ID 1 'jattetest' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+body   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+tail   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+tail   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+The duration of the of the test ID test3 'App with some input' was: 0 Days 0 Hours 0 Minutes and 0 Seconds
+The result of the test ID test3 'App with some input' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+test ID test3 'App with some input' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+The duration of the of the testlist ID  'Beispieltest' was: 0 Days 0 Hours 0 Minutes and 11 Seconds
+The result of the testlist ID  'Beispieltest' is NOT SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+testlist ID  'Beispieltest' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+Log finished...
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+Log saved at runTester.log
+-------------------------------------------------------
+17. OCT 2009 - 01:48:49
+HTML Stats saved at runTester.html
+-------------------------------------------------------

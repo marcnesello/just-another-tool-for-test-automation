@@ -1,0 +1,712 @@
+17. OCT 2009 - 01:48:20
+Log started...
+-------------------------------------------------------
+17. OCT 2009 - 01:48:20
+testlist ID  'Beispieltest' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:20
+test ID test2 'App sleeps, wait till end' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:20
+head   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:20
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:20
+head   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:20
+body   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:20
+group ID 1 'jattetest' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+17. OCT 2009 - 01:48:20
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+Do you want an Message which provokes a failed test (Press Enter or type sleep)?
+>
+How long should the sleep take?
+>
+Stopped after 5 seconds.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the group ID 1 'jattetest' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+group ID 1 'jattetest' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+body   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+tail   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+tail   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The duration of the of the test ID test2 'App sleeps, wait till end' was: 0 Days 0 Hours 0 Minutes and 6 Seconds
+The result of the test ID test2 'App sleeps, wait till end' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+test ID test2 'App sleeps, wait till end' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+test ID test3 'App with some input' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+head   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+head   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+body   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+group ID 1 'jattetest' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the group ID 1 'jattetest' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+group ID 1 'jattetest' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+body   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+tail   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+tail   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The duration of the of the test ID test3 'App with some input' was: 0 Days 0 Hours 0 Minutes and 0 Seconds
+The result of the test ID test3 'App with some input' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+test ID test3 'App with some input' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+test ID test4 'A small mass test' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+head   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+head   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+body   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+group ID 1 'jattetest' started: This Group has 5 parallel threads.
+ This Group will be executed 5 time(s).
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+Output of the command ID 2 'JATTATester aufrufen':
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:26
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:27
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' started: 
+-------------------------------------------------------
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Output of the command ID 2 'JATTATester aufrufen':
+Are you ready for Name and Age input?
+>
+What is your name?
+>
+How old are you?
+>
+Hi Marc! You are 23 years old.
+
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the command ID 2 'JATTATester aufrufen' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+command ID 2 'JATTATester aufrufen' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the group ID 1 'jattetest' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+group ID 1 'jattetest' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+body   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+tail   started: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+tail   finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The duration of the of the test ID test4 'A small mass test' was: 0 Days 0 Hours 0 Minutes and 2 Seconds
+The result of the test ID test4 'A small mass test' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+test ID test4 'A small mass test' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+The duration of the of the testlist ID  'Beispieltest' was: 0 Days 0 Hours 0 Minutes and 8 Seconds
+The result of the testlist ID  'Beispieltest' is SUCCESSFULL
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+testlist ID  'Beispieltest' finished: 
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Log finished...
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+Log saved at runTester2.log
+-------------------------------------------------------
+17. OCT 2009 - 01:48:28
+HTML Stats saved at runTester2.html
+-------------------------------------------------------

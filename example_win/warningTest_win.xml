@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+#Just Another Tool for Test Automation
+#Copyright (C) 2011  Marc Nesello
+#
+#This file is part of Just Another Tool for Test Automation.
+#
+#Just Another Tool for Test Automation is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 2 of the License, or
+#(at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<testlist name="Beispieltest" timeout="0" logfile="warningTest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jatta.xsd">
+<test id="t0" name="TEST WITH WARNING" timeout="0">
+    <head warnIfFailed="1">
+      <group id="1" name="head">
+      	  <command id="0" name="Testverzeichnis erstellen">
+	        <path>mkdir test</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+	      <command id="1" name="Testdatei erstellen">
+	        <path>echo. > test.txt</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+	      <command id="2" name="Alte Testdatei löschen">
+	        <path>del test\test.txt</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+      </group>
+    </head>
+    <body>
+      <group id="2" name="body">
+        <command id="3" name="Sicherstellen dass Datei im Verzeichnis ist">
+        <path>dir</path>
+        <positiveCheck>test.txt</positiveCheck>
+        </command>
+        <command id="4" name="Sicherstellen dass Datei nicht im Verzeichnis ist">
+        <path>dir test</path>
+        <negativeCheck>test.txt</negativeCheck>
+        </command>
+        <command id="5" name="Datei kopieren">
+          <path>copy test.txt test\test.txt</path>
+          <positiveCheck></positiveCheck>
+      	</command>
+      	<command id="6" name="Prüfen ob Datei kopiert wurde">
+        	<path>dir test</path>
+        	<positiveCheck>test.txt</positiveCheck>
+        	<positiveCheck>Verzeichnis</positiveCheck>
+      	</command>
+      	<command id="7" name="Prüfen ob Datei im alten Verzeichnis vorhanden ist">
+      		<path>dir</path>
+        	<positiveCheck>test.txt</positiveCheck>
+      	</command>
+      </group>
+    </body>
+    <tail warnIfFailed="1">
+    	<group id="3" name="tail">
+      	<command id="8" name="Testdatei löschen im alten Verzeichnis">
+        	<path>del test.txt</path>
+        	<positiveCheck>sdfgsdygg</positiveCheck>
+      	</command>
+      	<command id="9" name="Testdatei löschen im neuen Verzeichnis">
+        	<path>del /P test\test.txt</path>
+        	<positiveCheck></positiveCheck>
+        	<inputData>j</inputData>
+      	</command>
+      	<command id="10" name="Testdatei löschen">
+        	<path>rmdir test</path>
+        	<positiveCheck></positiveCheck>
+      	</command>
+      </group>
+    </tail>  
+  </test>
+  <test id="t7" name="Good Test" timeout="0">
+    <head warnIfFailed="1">
+      <group parallel="1" serial="1" id="1" name="head">
+      	  <command id="0" name="Testverzeichnis erstellen">
+	        <path>mkdir test</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+	      <command id="1" name="Testdatei erstellen">
+	        <path>echo. > test.txt</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+	      <command id="2" name="Alte Testdatei löschen">
+	        <path>del test\test.txt</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+      </group>
+    </head>
+    <body>
+      <group parallel="1" serial="1" id="2" name="body">
+        <command id="3" name="Sicherstellen dass Datei im Verzeichnis ist">
+        <path>dir</path>
+        <positiveCheck>test.txt</positiveCheck>
+        </command>
+        <command id="4" name="Sicherstellen dass Datei nicht im Verzeichnis ist">
+        <path>dir test</path>
+        <negativeCheck>test.txt</negativeCheck>
+        </command>
+        <command id="5" name="Datei kopieren">
+          <path>copy test.txt test\test.txt</path>
+          <positiveCheck></positiveCheck>
+      	</command>
+      	<command id="6" name="Prüfen ob Datei kopiert wurde">
+        	<path>dir test</path>
+        	<positiveCheck>test.txt</positiveCheck>
+        	<positiveCheck>Verzeichnis</positiveCheck>
+      	</command>
+      	<command id="7" name="Prüfen ob Datei im alten Verzeichnis vorhanden ist">
+      		<path>dir</path>
+        	<positiveCheck>test.txt</positiveCheck>
+      	</command>
+      </group>
+    </body>
+    <tail warnIfFailed="1">
+    	<group parallel="1" serial="1" id="3" name="tail">
+      	<command id="8" name="Testdatei löschen im alten Verzeichnis">
+        	<path>del test.txt</path>
+        	<positiveCheck></positiveCheck>
+      	</command>
+      	<command id="9" name="Testdatei löschen im neuen Verzeichnis">
+        	<path>del /P test\test.txt</path>
+        	<positiveCheck></positiveCheck>
+        	<inputData>j</inputData>
+      	</command>
+      	<command id="10" name="Testdatei löschen">
+        	<path>rmdir test</path>
+        	<positiveCheck></positiveCheck>
+      	</command>
+      </group>
+    </tail>  
+  </test>
+  <test id="t42" name="Other test with warning" timeout="0">
+    <head warnIfFailed="1">
+      <group parallel="1" serial="1" id="1" name="head">
+      	  <command id="0" name="Testverzeichnis erstellen">
+	        <path>mkdir test</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+	      <command id="1" name="Testdatei erstellen">
+	        <path>echo. > test.txt</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+	      <command id="2" name="Alte Testdatei löschen">
+	        <path>del test\test.txt</path>
+	        <positiveCheck></positiveCheck>
+	      </command>
+      </group>
+    </head>
+    <body>
+      <group parallel="1" serial="1" id="2" name="body">
+        <command id="3" name="Sicherstellen dass Datei im Verzeichnis ist">
+        <path>dir</path>
+        <positiveCheck>test.txt</positiveCheck>
+        </command>
+        <command id="4" name="Sicherstellen dass Datei nicht im Verzeichnis ist">
+        <path>dir test</path>
+        <negativeCheck>test.txt</negativeCheck>
+        </command>
+        <command id="5" name="Datei kopieren">
+          <path>copy test.txt test\test.txt</path>
+          <positiveCheck></positiveCheck>
+      	</command>
+      	<command id="6" name="Prüfen ob Datei kopiert wurde">
+        	<path>dir test</path>
+        	<positiveCheck>test.txt</positiveCheck>
+        	<positiveCheck>Verzeichnis</positiveCheck>
+      	</command>
+      	<command id="7" name="Prüfen ob Datei im alten Verzeichnis vorhanden ist">
+      		<path>dir</path>
+        	<positiveCheck>test.txt</positiveCheck>
+      	</command>
+      </group>
+    </body>
+    <tail warnIfFailed="1">
+    	<group parallel="1" serial="1" id="3" name="tail">
+      	<command id="8" name="Testdatei löschen im alten Verzeichnis">
+        	<path>del test.txt</path>
+        	<positiveCheck>sdfgsdygg</positiveCheck>
+      	</command>
+      	<command id="9" name="Testdatei löschen im neuen Verzeichnis">
+        	<path>del /P test\test.txt</path>
+        	<positiveCheck></positiveCheck>
+        	<inputData>j</inputData>
+      	</command>
+      	<command id="10" name="Testdatei löschen">
+        	<path>rmdir test</path>
+        	<positiveCheck></positiveCheck>
+      	</command>
+      </group>
+    </tail>  
+  </test>
+</testlist>

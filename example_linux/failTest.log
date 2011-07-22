@@ -1,0 +1,560 @@
+16. OCT 2009 - 16:38:39
+Log started...
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+testlist ID  'Beispieltest' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+test ID t0 'Simpler Test' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 1 'head' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 0 'Testverzeichnis erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 0 'Testverzeichnis erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 0 'Testverzeichnis erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 0 'Testverzeichnis erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 1 'Testdatei erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 1 'Testdatei erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 1 'Testdatei erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 1 'Testdatei erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 2 'Alte Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 2 'Alte Testdatei löschen':
+rm: Entfernen von â€žtest/test.txtâ€œ nicht mÃ¶glich: No such file or directory
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 2 'Alte Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 2 'Alte Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the group ID 1 'head' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 1 'head' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 2 'body' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist':
+aptsh.xml
+cpanp.xml
+doc
+Doxyfile
+examples
+failTest.html
+failTest_linux.xml
+failTest.log
+failTest_win.xml
+jatta.pl
+jatta.xsd
+logs_linux
+logs_win
+modlib
+runTester2_linux.xml
+runTester2_win.xml
+runTester_linux.xml
+runTester_win.xml
+successTest.html
+successTest_linux.xml
+successTest.log
+successTest_win.xml
+test
+tests_linux
+tests_win
+test.txt
+tmp
+warningTest.html
+warningTest_linux.xml
+warningTest.log
+warningTest_win.xml
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 5 'Datei kopieren' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 5 'Datei kopieren':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 5 'Datei kopieren' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 5 'Datei kopieren' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 6 'Prüfen ob Datei kopiert wurde' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 6 'Prüfen ob Datei kopiert wurde':
+test.txt
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 6 'Prüfen ob Datei kopiert wurde' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 6 'Prüfen ob Datei kopiert wurde' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist':
+aptsh.xml
+cpanp.xml
+doc
+Doxyfile
+examples
+failTest.html
+failTest_linux.xml
+failTest.log
+failTest_win.xml
+jatta.pl
+jatta.xsd
+logs_linux
+logs_win
+modlib
+runTester2_linux.xml
+runTester2_win.xml
+runTester_linux.xml
+runTester_win.xml
+successTest.html
+successTest_linux.xml
+successTest.log
+successTest_win.xml
+test
+tests_linux
+tests_win
+test.txt
+tmp
+warningTest.html
+warningTest_linux.xml
+warningTest.log
+warningTest_win.xml
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the group ID 2 'body' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 2 'body' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the body   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 3 'tail' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 8 'Testdatei löschen im alten Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 8 'Testdatei löschen im alten Verzeichnis':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 8 'Testdatei löschen im alten Verzeichnis' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 8 'Testdatei löschen im alten Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 9 'Testdatei löschen im neuen Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 9 'Testdatei löschen im neuen Verzeichnis':
+rm: regulÃ¤re leere Datei â€žtest/test.txtâ€œ entfernen? 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 9 'Testdatei löschen im neuen Verzeichnis' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 9 'Testdatei löschen im neuen Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 10 'Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 10 'Testdatei löschen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 10 'Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 10 'Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the group ID 3 'tail' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 3 'tail' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The duration of the of the test ID t0 'Simpler Test' was: 0 Days 0 Hours 0 Minutes and 0 Seconds
+The result of the test ID t0 'Simpler Test' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+test ID t0 'Simpler Test' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+test ID t2 'Failing Test' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+head   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 1 'head' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 0 'Testverzeichnis erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 0 'Testverzeichnis erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 0 'Testverzeichnis erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 0 'Testverzeichnis erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 1 'Testdatei erstellen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 1 'Testdatei erstellen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 1 'Testdatei erstellen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 1 'Testdatei erstellen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 2 'Alte Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 2 'Alte Testdatei löschen':
+rm: Entfernen von â€žtest/test.txtâ€œ nicht mÃ¶glich: No such file or directory
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 2 'Alte Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 2 'Alte Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the group ID 1 'head' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 1 'head' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the head   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+head   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+body   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 2 'body' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist':
+aptsh.xml
+cpanp.xml
+doc
+Doxyfile
+examples
+failTest.html
+failTest_linux.xml
+failTest.log
+failTest_win.xml
+jatta.pl
+jatta.xsd
+logs_linux
+logs_win
+modlib
+runTester2_linux.xml
+runTester2_win.xml
+runTester_linux.xml
+runTester_win.xml
+successTest.html
+successTest_linux.xml
+successTest.log
+successTest_win.xml
+test
+tests_linux
+tests_win
+test.txt
+tmp
+warningTest.html
+warningTest_linux.xml
+warningTest.log
+warningTest_win.xml
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 3 'Sicherstellen dass Datei im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 4 'Sicherstellen dass Datei nicht im Verzeichnis ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 6 'Prüfen ob Datei kopiert wurde' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 6 'Prüfen ob Datei kopiert wurde':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 6 'Prüfen ob Datei kopiert wurde' failed at Positive Check 'test.txt'
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 6 'Prüfen ob Datei kopiert wurde' is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 6 'Prüfen ob Datei kopiert wurde' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist':
+aptsh.xml
+cpanp.xml
+doc
+Doxyfile
+examples
+failTest.html
+failTest_linux.xml
+failTest.log
+failTest_win.xml
+jatta.pl
+jatta.xsd
+logs_linux
+logs_win
+modlib
+runTester2_linux.xml
+runTester2_win.xml
+runTester_linux.xml
+runTester_win.xml
+successTest.html
+successTest_linux.xml
+successTest.log
+successTest_win.xml
+test
+tests_linux
+tests_win
+test.txt
+tmp
+warningTest.html
+warningTest_linux.xml
+warningTest.log
+warningTest_win.xml
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 7 'Prüfen ob Datei im alten Verzeichnis vorhanden ist' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the group ID 2 'body' is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 2 'body' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the body   is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+body   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+tail   started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 3 'tail' started: 
+ This Group will be executed 1 time(s).
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 8 'Testdatei löschen im alten Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 8 'Testdatei löschen im alten Verzeichnis':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 8 'Testdatei löschen im alten Verzeichnis' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 8 'Testdatei löschen im alten Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 9 'Testdatei löschen im neuen Verzeichnis' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 9 'Testdatei löschen im neuen Verzeichnis':
+rm: Entfernen von â€žtest/test.txtâ€œ nicht mÃ¶glich: No such file or directory
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 9 'Testdatei löschen im neuen Verzeichnis' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 9 'Testdatei löschen im neuen Verzeichnis' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 10 'Testdatei löschen' started: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Output of the command ID 10 'Testdatei löschen':
+
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the command ID 10 'Testdatei löschen' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+command ID 10 'Testdatei löschen' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the group ID 3 'tail' is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+group ID 3 'tail' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The result of the tail   is SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+tail   finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The duration of the of the test ID t2 'Failing Test' was: 0 Days 0 Hours 0 Minutes and 0 Seconds
+The result of the test ID t2 'Failing Test' is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+test ID t2 'Failing Test' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+The duration of the of the testlist ID  'Beispieltest' was: 0 Days 0 Hours 0 Minutes and 0 Seconds
+The result of the testlist ID  'Beispieltest' is NOT SUCCESSFULL
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+testlist ID  'Beispieltest' finished: 
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Log finished...
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+Log saved at failTest.log
+-------------------------------------------------------
+16. OCT 2009 - 16:38:39
+HTML Stats saved at failTest.html
+-------------------------------------------------------

@@ -18,8 +18,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-Just Another Tool for Test Automation
-=====================================
+Purpose
+-------
 
 This tool can be used for automated system tests of command line applications. 
 Test lists are written in an xml-style syntax. 
@@ -52,7 +52,7 @@ example_win - Contains example test files for Windows and example results and lo
 example_linux - Contains example test files for Linux and example results and logs
 
 
-Buidling the documentation
+Building the documentation
 --------------------------
 For rebuilding the documentation you need doxygen and as input_filter you need DoxyGen::Filter which processes the perl sources.
 

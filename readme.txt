@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 --------------------------------------------------------------------------------------------
-Just Another Tool for Test Automation
+Purpose
 --------------------------------------------------------------------------------------------
 
 This tool can be used for automated system tests of command line applications. 
@@ -47,7 +47,7 @@ modlib - Contains the perl modules which are need to run jatta.pl
 example_win - Contains example test files for Windows and example results and logs
 example_linux - Contains example test files for Linux and example results and logs
 
-2.Buidling the documentation
+2.Building the documentation
 For rebuilding the documentation you need doxygen and as input_filter you need DoxyGen::Filter which processes the perl sources.
 
 3.Usage

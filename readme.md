@@ -41,15 +41,15 @@ Content
 -------
 
 ### Files
-readme.txt - This file
-gpl-2.0.txt - The GNU GPL v2
-jatta.pl - The main program
-jatta.xsd - The XML Schema file
+* readme.txt - This file
+* gpl-2.0.txt - The GNU GPL v2
+* jatta.pl - The main program
+* jatta.xsd - The XML Schema file
 
 ### Folders
-modlib - Contains the perl modules which are need to run jatta.pl
-example_win - Contains example test files for Windows and example results and logs
-example_linux - Contains example test files for Linux and example results and logs
+* modlib - Contains the perl modules which are need to run jatta.pl
+* example_win - Contains example test files for Windows and example results and logs
+* example_linux - Contains example test files for Linux and example results and logs
 
 
 Building the documentation

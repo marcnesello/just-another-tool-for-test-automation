@@ -22,7 +22,7 @@ Purpose
 -------
 
 This tool can be used for automated system tests of command line applications. 
-Test lists are written in an xml-style syntax. 
+Test lists are written in a xml-style syntax. 
 The tool is developed in Perl with a portion of code in xml scheme to validate test lists.
 
 
@@ -47,7 +47,7 @@ Content
 * jatta.xsd - The XML Schema file
 
 ### Folders
-* modlib - Contains the perl modules which are need to run jatta.pl
+* modlib - Contains the perl modules which are needed to run jatta.pl
 * example_win - Contains example test files for Windows and example results and logs
 * example_linux - Contains example test files for Linux and example results and logs
 
@@ -58,8 +58,8 @@ For rebuilding the documentation you need doxygen and as input_filter you need D
 
 Usage
 -----
-### 1.Write a Testlist
-Write a testlist which is valid according to jatta.xsd. Example testlists are found in example_win and example_linux.
+### 1.Write a Test list
+Write a test list which is valid according to jatta.xsd. Example test lists are found in example_win and example_linux.
 
 ### 2.Start Just Another Tool for Test Automation
 At your terminal type "perl jatta.pl FILENAME". Substitute FILENAME with the complete path to the test file.
